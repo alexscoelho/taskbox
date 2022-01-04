@@ -1417,6 +1417,48 @@ exports[`Storyshots Task Default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Task Long Input Text 1`] = `
+<div
+  className="list-item TASK_ARCHIVED"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={true}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      aria-label="archiveTask-1"
+      className="checkbox-custom"
+      id="archiveTask-1"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      style={
+        Object {
+          "textOverflow": "ellipsis",
+        }
+      }
+      type="text"
+      value=" is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  />
+</div>
+`;
+
 exports[`Storyshots Task Pinned 1`] = `
 <div
   className="list-item TASK_PINNED"
